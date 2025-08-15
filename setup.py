@@ -1,5 +1,5 @@
 import sys
-from distutils.core import setup
+import setup
 
 python_version = sys.version_info[:2]
 required_python_version = (3,9)
@@ -38,3 +38,4 @@ setup(
     'Programming Language :: Python :: 3 :: Only'
   ],
 )
+
